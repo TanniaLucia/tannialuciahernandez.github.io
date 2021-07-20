@@ -224,15 +224,14 @@ footer{
         font-size: 20px;
     }
     .circulo-conforma img{
-        width: 40px;
-        height: 40px;
+        width: 30px;
+        height: 30px;
         border-radius: 50%;
     }
     .circulo-cromatico{
-        width:50%;
+        width:60%;
         text-align: center;
-        padding: 10px;
-        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding: 5px;
         font-size: 10px;
         border-radius: 10px;
         flex-wrap: wrap;
@@ -243,27 +242,8 @@ footer{
     .Logo{
         width:80px;
     }
-    #friocalido{
-        flex-wrap: wrap;
-    }
-    .Frios{
-        width:60%
-    }
-    .Calidos{
-        width:60%
-    }
-    .Frios img{
-        width: 30px;
-        height: 30px;
-        flex-wrap: wrap;
-    }
-    .Calidos img{
-        width: 30px;
-        height: 30px;
-        flex-wrap: wrap;
-    }
     .sobre-nosotros h1{
-        font-size: 20px;
+        font-size: 10px;
     }
     .contenedor{
         margin: 10px 10px 0 0; /*arriba-abajo lados*/
