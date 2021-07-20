@@ -243,7 +243,21 @@ footer{
     .Logo{
         width:80px;
     }
-    #friocalido img{
+    #friocalido{
+        flex-wrap: wrap;
+    }
+    .Frios{
+        width:60%
+    }
+    .Calidos{
+        width:60%
+    }
+    .Frios img{
+        width: 30px;
+        height: 30px;
+        flex-wrap: wrap;
+    }
+    .Calidos img{
         width: 30px;
         height: 30px;
         flex-wrap: wrap;
