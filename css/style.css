@@ -150,7 +150,6 @@ ul li{
     color: #7EE9D2;
 }
 .sobre-nosotros p{
-    font-size: 20px;
     text-align: justify;
 }
 
@@ -212,4 +211,30 @@ footer{
     border-radius: 10px;
     padding:10px;
     margin-left: 30%;
+}
+
+@media screen and (min-width:320px)and (max-width:640px){
+
+    .circulo-frio img{
+        border-radius: 50%;
+        width:150px;
+        height: 150px;
+    }
+    .circulo-cromatico h2{
+        font-size: 20px;
+    }
+    .circulo-conforma img{
+        width:50px;
+        height:50px;
+        border-radius: 50%;
+    }
+    .circulo-cromatico{
+        width:50%;
+        text-align: center;
+        padding: 10px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 10px;
+        border-radius: 10px;
+    }
+
 }
