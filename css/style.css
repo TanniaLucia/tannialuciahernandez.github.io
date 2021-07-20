@@ -245,7 +245,7 @@ footer{
     }
     .contenedor{
         margin: 40px 0 0 0; /*arriba-abajo lados*/
-        padding: 40px 10px 20px 0; /*arriba-abajo lados*/
+        padding: 80px 10px 20px 0; /*arriba-abajo lados*/
     }
     .circulo-frio img{
         border-radius: 50%;
