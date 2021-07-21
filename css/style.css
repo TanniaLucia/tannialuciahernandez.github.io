@@ -54,7 +54,7 @@ main{
     right:0;
     width:30vw;
     height:60%;
-    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    background:#FF9C63;
     display: flex;
     flex-direction: column;
     justify-content:space-evenly; /*Reparte el espacio equitativamente*/

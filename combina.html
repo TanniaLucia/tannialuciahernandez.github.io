@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Victim</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>  <!-- Permite trabajar con los iconos de boxicons-->  
+</head>
+
+<body>
+    <header class="header">
+        <img src="Imagenes/Logo.jpg" alt="" class="Logo">
+        <nav class ="menu-navegacion">
+            <a href="index.html">Home</a>
+            <a href="circulo.html">Circulo Cromatico</a>
+            <a href="combina.html">¿Cómo combinar?</a>
+        </nav>
+    </header>    
+
+    <main>
+        <section class="contenedor">
+            <div class="contenedor-servicio">
+                <div class ="sobre-nosotros">
+                        <h1>¿Cómo se combina?</h1></br>
+                        <h2>Combinación de colores análogos: </h2></br>
+                        <p>Los colores análogos son los que están contiguos en la rueda del color como el naranja y rojo. Son naturalmente armoniosos porque reflejan ondas de luz similares. Se consideran pequeños sectores del circulo cromático</p></br>
+                        <img src="Imagenes/analogos.jpg"></br>
+
+                        <h2>Combinación de colores complementarios</h2></br>
+                        <p>Los colores complementarios se llaman a los pares que están opuestos en el circulo cromatico. Cualquier par de complementario contiene el trío de primarios, el amarillo y su complemento, violeta (creado a partir del rojo-azul) completan el trío primario.</p></br>
+                        <img src="Imagenes/complementario.jpg"></br>
+
+                        <h2>Armonía monocromática</h2></br>
+                        <p>Vete a lo seguro eligiendo un color y estableciendo un esquema a partir de sus tintes, tonos y sombras, es decir, yendo de más fuerte a más claro o viceversa. Obtendrás un resultado moderno y elegante.</p></br>
+                        <img src="Imagenes/monocromatico.jpg"></br>
+
+                        <h2>Combinación de colores complementarios indirectos:</h2></br>
+                        <p>Atrévete a generar “acordes” aún más complejos creando armonías a partir de un color base y los dos adyacentes de su opuesto.</p></br>
+                
+                        <h2>Combinación tríadica</h2></br>
+                        <p>Crea una triada de colores trazando mentalmente un triángulo equilátero a partir de cualquier punto en el círculo cromático. Utiliza combinaciones triádicas para ofrecer una sensación de balance; con interesantes oportunidades para comunicar fuerza a partir de sus contrastes.</p></br>
+                        <img src="Imagenes/triada.jpg"></br>
+
+                        <h2>Combinación tetradica</h2></br>
+                        <p>También conocidas como de “doble complementario”, se componen de dos juegos de colores opuestos en el círculo cromático, aunque debes designar uno como dominante. Utilízalos para brindar a tu diseño un aire de desenfado, diversidad y diversión.</p></br>
+                        <img src="Imagenes/doble.jpg"></br>
+                </div>
+                <img src="Imagenes/combina.jpg" alt="">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div>
+                <h2>Suscribete</h2>
+                <p>Recibirás novedades de moda cada semana</p>
+                <br></br>
+                <div class="social-media">
+                    <a href="./" class="social-media-icon">
+                        <i class='bx bxl-facebook'></i>
+                    </a>
+                    <a href="./" class="social-media-icon">
+                        <i class='bx bxl-twitter' ></i>
+                    </a>
+                    <a href="./" class="social-media-icon">
+                        <i class='bx bxl-instagram' ></i>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <form id="formulario" name="formulario" enctype="text/plain" action="#" body="Suscripción" method="POST">
+                    <div>
+                        <label for="nombre">Nombre</label></br>
+                        <input id="nombre" type="text" name="nombre" value=""></br>
+                        <label for="correo">Correo electrónico</label></br>
+                        <input id="correo" type="text" name="E-mail" value=""></br>
+                    </div>    
+                    <div class="check">
+                        <input id='check' type="checkbox">
+                        <label for="condiciones">Acepta las políticas
+                            <p>de privacidad, términos</p>
+                            <p>y condiciones</p>
+                        </label></br>
+                        <button class="boton" onclick="validaSubmite()">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </footer>
+    <script src="js/correo.js"></script>
+</body>
+</html>
